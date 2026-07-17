@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同商品品类用户流失数量对比,bar,部分订单品类用户流失人数显著更高,未结合客单价、返现金额细分分析
+02,02_behavior_scatter.png,APP使用时长与复购间隔的关联关系,scatter,APP使用时间短的用户复购间隔更长，流失风险更高,无法区分用户主动下线与被动退出场景
+03,03_ordered_line.png,用户生命周期拉长过程中流失率变化趋势,line,用户使用周期越久，整体流失率持续上升,人工划分生命周期分组，存在分组粒度主观偏差
+04,04_composition_chart.png,全量用户各生命周期区间人数占比分布,pie_or_bar,短期生命周期用户为平台核心用户群体，长周期用户占比较低,静态截面数据，无法反映用户流量动态变化
+05,day06_visualization_summary.png,整体概览,dashboard,流失用户复购间隔显著更长，长周期用户流失风险突出,仅使用复购、生命周期两类特征，缺少返现、支付方式等变量分析
